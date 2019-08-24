@@ -3,7 +3,9 @@
 require_relative "../lib/user.rb"
 require_relative "../lib/teacher.rb"
 require_relative "../lib/student.rb"
-
+jim = Student.new
+jim.first_name = "Jim"
+Jim.last_name = "Smith"
 steve = Student.new
 steve.first_name = "Steve"
 steve.last_name = "Jobs"
